@@ -88,7 +88,7 @@ namespace SliderWithTickLabels
 		{
 			base.OnPropertyChanged(e);
 
-			var propertyNames = new string[] { "Minimum", "Maximum", "TickFrequency", "Ticks" };
+			var propertyNames = new string[] { "Minimum", "Maximum", "TickFrequency", "Ticks", "IsDirectionReversed" };
 
 			if (IsInitialized && propertyNames.Contains(e.Property.Name))
 			{
