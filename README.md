@@ -167,7 +167,7 @@ You can combine different settings, and it will work just like as expected.
 
 ### Custom label template
 
-You can modify the label template to whatever you want setting the `TickLabelTemplate` property with a DataTemplate.
+You can modify the label template to whatever you want setting the `TickLabelTemplate` property with a DataTemplate. Just remember to put `{Binding}` to the desired content property of your element to display the label value.
 
 #### Horizontal
 
