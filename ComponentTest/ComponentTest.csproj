@@ -85,6 +85,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\ComponentTest.exe.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +99,12 @@
       <Project>{9d77255e-ffe1-4b28-a164-870cba08bbd1}</Project>
       <Name>SliderWithTickLabels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ComponentTest.exe" />
+    <Content Include="bin\Debug\ComponentTest.pdb" />
+    <Content Include="bin\Debug\SliderWithTickLabels.dll" />
+    <Content Include="bin\Debug\SliderWithTickLabels.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
