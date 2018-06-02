@@ -20,7 +20,7 @@ The only necessary property to show the labels is TickPlacement. The rest of pro
 
 #### Horizontal
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Horizontal"
@@ -31,12 +31,12 @@ The only necessary property to show the labels is TickPlacement. The rest of pro
 	TickFrequency="20"/>
 ```
 
-**Result:**
+##### Result:
 ![Basic usage - horizontal](Help/basic-horizontal.png)
 
 #### Vertical
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Vertical"
@@ -47,7 +47,7 @@ The only necessary property to show the labels is TickPlacement. The rest of pro
 	TickFrequency="20"/>
 ```
 
-**Result:**
+##### Result:
 ![Basic usage - vertical](Help/basic-vertical.png)
 
 
@@ -57,7 +57,7 @@ Just like the original Slider control, you will always have ticks at minimum and
 
 #### Horizontal
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Horizontal"
@@ -68,12 +68,12 @@ Just like the original Slider control, you will always have ticks at minimum and
 	Ticks="20, 45, 75"/>
 ```
 
-**Result:**
+##### Result:
 ![Custom ticks - horizontal](Help/customticks-horizontal.png)
 
 #### Vertical
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Vertical"
@@ -84,7 +84,7 @@ Just like the original Slider control, you will always have ticks at minimum and
 	Ticks="20, 45, 75"/>
 ```
 
-**Result:**
+##### Result:
 ![Custom ticks - vertical](Help/customticks-vertical.png)
 
 ### Reverse direction
@@ -93,7 +93,7 @@ Set `IsDirectionReversed` property to `True` and labels will follow the setting.
 
 #### Horizontal
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Horizontal"
@@ -105,12 +105,12 @@ Set `IsDirectionReversed` property to `True` and labels will follow the setting.
 	IsDirectionReversed="True"/>
 ```
 
-**Result:**
+##### Result:
 ![Reverse direction - horizontal](Help/reversed-horizontal.png)
 
 #### Vertical
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Vertical"
@@ -122,7 +122,7 @@ Set `IsDirectionReversed` property to `True` and labels will follow the setting.
 	IsDirectionReversed="True"/>
 ```
 
-**Result:**
+##### Result:
 ![Reverse direction - vertical](Help/reversed-vertical.png)
 
 
@@ -132,7 +132,7 @@ You can combine different settings, and it will work just like as expected.
 
 #### Horizontal
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Horizontal"
@@ -144,12 +144,12 @@ You can combine different settings, and it will work just like as expected.
 	IsDirectionReversed="True"/>
 ```
 
-**Result:**
+##### Result:
 ![Reverse direction and custom ticks - horizontal](Help/reversed-customticks-horizontal.png)
 
 #### Vertical
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Vertical"
@@ -161,7 +161,7 @@ You can combine different settings, and it will work just like as expected.
 	IsDirectionReversed="True"/>
 ```
 
-**Result:**
+##### Result:
 ![Reverse direction and custom ticks - vertical](Help/reversed-customticks-vertical.png)
 
 
@@ -171,7 +171,7 @@ You can modify the label template to whatever you want setting the `TickLabelTem
 
 #### Horizontal
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels
 	Orientation="Horizontal"
@@ -202,12 +202,12 @@ You can modify the label template to whatever you want setting the `TickLabelTem
 </custom:SliderWithTickLabels>
 ```
 
-**Result:**
+##### Result:
 ![Custom label template - horizontal](Help/customlabeltemplate-horizontal.png)
 
 #### Vertical
 
-**Code:**
+##### Code:
 ```xml
 <custom:SliderWithTickLabels Orientation="Vertical" Height="200" TickPlacement="Both" Minimum="0" Maximum="90" TickFrequency="30">
 	<custom:SliderWithTickLabels.TickLabelTemplate>
@@ -232,6 +232,5 @@ You can modify the label template to whatever you want setting the `TickLabelTem
 </custom:SliderWithTickLabels>
 ```
 
-**Result:**
+##### Result:
 ![Custom label template - vertical](Help/customlabeltemplate-vertical.png)
-
