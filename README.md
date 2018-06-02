@@ -209,7 +209,13 @@ You can modify the label template to whatever you want setting the `TickLabelTem
 
 ##### Code:
 ```xml
-<custom:SliderWithTickLabels Orientation="Vertical" Height="200" TickPlacement="Both" Minimum="0" Maximum="90" TickFrequency="30">
+<custom:SliderWithTickLabels
+	Orientation="Vertical"
+	Height="200"
+	TickPlacement="Both"
+	Minimum="0"
+	Maximum="90"
+	TickFrequency="30">
 	<custom:SliderWithTickLabels.TickLabelTemplate>
 		<DataTemplate>
 			<Grid Width="30" Height="30">
