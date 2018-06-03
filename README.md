@@ -14,6 +14,8 @@ Just reference [SliderWithTickLabels.dll](ComponentTest/bin/Debug/SliderWithTick
 
 Below are simple examples of how you can use SliderWithTickLabels control. I tried to keep them as simple as possible. Of course, you can make more elaborate constructions to fit your needs.
 
+The `custom` namespace in the examples is defined as `xmlns:custom="clr-namespace:SliderWithTickLabels;assembly=SliderWithTickLabels"`
+
 ### Basic
 
 The only necessary property to show the labels is TickPlacement. The rest of properties were modified to create a more interesting example.
