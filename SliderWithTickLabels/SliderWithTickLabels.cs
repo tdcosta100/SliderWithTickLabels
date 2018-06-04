@@ -112,7 +112,7 @@ namespace SliderWithTickLabels
 		{
 			if (this.Ticks != null && this.Ticks.Any())
 			{
-				this.GeneratedTicks = new DoubleCollection(this.Ticks.Union(new double[] { this.Minimum, this.Maximum }));
+				this.GeneratedTicks = new DoubleCollection(this.Ticks.Union(new double[] { this.Minimum, this.Maximum }).Where(t => this.Minimum <= t && t <= this.Maximum));
 			}
 			else
 			{
