@@ -58,7 +58,7 @@ namespace SliderWithTickLabels
 
 				return thickness;
 			}
-			catch (Exception ex)
+			catch 
 			{
 				return null;
 			}
